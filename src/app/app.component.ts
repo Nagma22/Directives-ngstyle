@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'App-ngStyle-Directive';
+
+  cssStyle : Style = new Style(); 
+}
+class Style{
+  color : string='blue';
+  'font-size.px': number =20;
+  'font-weight' : string = 'bold';
 }
